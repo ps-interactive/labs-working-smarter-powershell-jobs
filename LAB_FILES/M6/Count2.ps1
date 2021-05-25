@@ -1,0 +1,1 @@
+0..10 | ForEach-Object { $a = $_ ; Wait-Debugger; Write-Host "The value of `$a is $a" }
